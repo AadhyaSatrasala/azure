@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<a href="home.html" class="an"><h1 align="center">MOVIE MANIA</h1></a>
+		<style>
+			.horizontal-links {display:flex; list-style:none;padding:15px;padding-left:475px;align="center";background-color:rgb(69,103,120);}
+			.horizontal-links li {margin-right:30px;font-size:25px;}
+			.horizontal-links a {text-decoration: none;color:white;}
+			body{background-color:rgb(33,56,68);color:white;}
+			.search{height:50px;width:600px;}
+			.button {background-color:rgb(69,103,120);color:white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+			.an{text-decoration:none;color:white;}
+		</style>
+	</head>
+	<body align="center">
+		<nav>
+			<ul class="horizontal-links">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="movies.html">Movies</a></li>
+				<li><a href="series.html">TV Series</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+		<br><br><br><br><br>
+		<main>
+			<a href="home.html"><img src="C:/Users/aadhy/Pictures/wt/movie mania.jpg" width=300px height=100px></a>
+			<br><br><br>
+			<div>
+    	   			<input name="keyword" type="text" class="search" placeholder="Search for movies/series..." id=myInput>
+				<button OnClick='search()' class="button">Search</button>
+			</div>
+       		</main>
+		<footer>
+			<p>&copy; 2023 Movies. All rights reserved.</p>
+		</footer>
+		<script type="text/JavaScript">
+			const movies=[]
+		</script>
+	</body>
+</html>
